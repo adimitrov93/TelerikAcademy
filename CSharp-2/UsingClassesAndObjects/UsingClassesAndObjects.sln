@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.PrintRandomNumbers", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CurrentDayOfTheWeek", "CurrentDayOfTheWeek\03.CurrentDayOfTheWeek.csproj", "{9A48F980-03B3-4959-936E-E28A2C7C390F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.SumOfSequenceOfIntegers", "SumOfSequenceOfIntegers\06.SumOfSequenceOfIntegers.csproj", "{D7674430-75A3-47B2-9CD8-105A700CA94A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SurfaceOfATriangle", "SurfaceOfATriangle\04.SurfaceOfATriangle.csproj", "{560A6239-F19D-4EB8-AE11-72E09BB4D7D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{9A48F980-03B3-4959-936E-E28A2C7C390F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A48F980-03B3-4959-936E-E28A2C7C390F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A48F980-03B3-4959-936E-E28A2C7C390F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7674430-75A3-47B2-9CD8-105A700CA94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7674430-75A3-47B2-9CD8-105A700CA94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7674430-75A3-47B2-9CD8-105A700CA94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7674430-75A3-47B2-9CD8-105A700CA94A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{560A6239-F19D-4EB8-AE11-72E09BB4D7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560A6239-F19D-4EB8-AE11-72E09BB4D7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560A6239-F19D-4EB8-AE11-72E09BB4D7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560A6239-F19D-4EB8-AE11-72E09BB4D7D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
