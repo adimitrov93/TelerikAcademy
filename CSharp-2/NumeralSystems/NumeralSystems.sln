@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.ConversionBetweenNumeral
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.BinaryRepresentationOfShort", "BinaryRepresentationOfShort\08.BinaryRepresentationOfShort.csproj", "{960E146A-C3D9-4528-B993-373F3EE6991C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.FloatBinaryRepresentation", "FloatBinaryRepresentation\09.FloatBinaryRepresentation.csproj", "{DADB8366-F000-4C57-B425-E9414FF1735C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{960E146A-C3D9-4528-B993-373F3EE6991C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{960E146A-C3D9-4528-B993-373F3EE6991C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{960E146A-C3D9-4528-B993-373F3EE6991C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DADB8366-F000-4C57-B425-E9414FF1735C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DADB8366-F000-4C57-B425-E9414FF1735C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DADB8366-F000-4C57-B425-E9414FF1735C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DADB8366-F000-4C57-B425-E9414FF1735C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
