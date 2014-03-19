@@ -1,0 +1,20 @@
+.page {
+	background-color: lightblue;
+}
+
+.nav-ul-style {
+	list-style-type: disc;
+}
+
+#profile-picture {
+	width: 150px;
+	border: solid 1px black;
+}
+
+.profile-heading {
+	font-weight: bold;
+}
+
+#friends-list {
+	line-height: 5px;
+}
