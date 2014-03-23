@@ -1,0 +1,62 @@
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid gray;
+}
+
+textarea {
+	resize: none;
+}
+
+.add-data-col {
+	width: 40px;
+}
+
+.labels {
+	text-align: right;
+	font-weight: bold;
+}
+
+#submit-row {
+	background-color: #C6E2FF;
+	text-align: center;
+}
+
+#labels-col {
+	width: 100px;
+}
+
+#data-col {
+	width: 200px;
+}
+
+#month, #day {
+	width: 20px;
+}
+
+#year {
+	width: 40px;
+}
+
+#country-code, #area-code, #state {
+	width: 50px;
+}
+
+#number {
+	width: 100px;
+}
+
+#address, #comments {
+	width: 90%;
+	height: 70px;
+}
+
+#postal-code {
+	width: 60px;
+}
+
+#last-name, #first-name, #email, #city {
+	width: 75%;
+}

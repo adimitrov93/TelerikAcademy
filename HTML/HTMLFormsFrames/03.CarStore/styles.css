@@ -1,0 +1,33 @@
+img {
+	width: 100px;
+	height: 56px;
+}
+
+legend, nav, .center {
+	text-align: center;
+}
+
+fieldset {
+	padding: 0px 5px;
+}
+
+nav {
+	border-bottom: 2px solid gray;
+	font-size: 20px;
+}
+
+nav a {
+	color: darkblue;
+}
+
+.empty-cell {
+	height: 20px;
+}
+
+#main-table {
+	border-spacing: 5px;
+}
+
+#product-table {
+	border: 1px solid gray;
+}

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Car Store</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<table id="main-table">
+		<tr>
+			<td colspan="2">
+				<nav>
+					<a href="">Aston Martin</a>
+					<a href="">Ferrari</a>
+					<a href="">Lamborghini</a>
+					<a href="">Mercedes-Benz</a>
+					<a href="">Subaru</a>
+				</nav>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table id="product-table">
+					<form>
+						<tr>
+							<td>
+								<fieldset>
+									<legend>Lamborghini Gallardo LP560-4</legend>
+									<table>
+										<tr>
+											<td rowspan="3"><img src="lambo.jpg" alt="Lamborghini picture"></td>
+											<td class="empty-cell"></td>
+										</tr>
+										<tr>
+											<td>5.0L V10</td>
+										</tr>
+										<tr>
+											<td>6-Speed Manual</td>
+										</tr>
+										<tr>
+											<td class="center">190 000&euro;</td>
+											<td>552hp (412kW)</td>
+										</tr>
+									</table>
+								</fieldset>
+							</td>
+							<td>
+								<fieldset>
+									<legend>Lamborghini Gallardo LP560-4</legend>
+									<table>
+										<tr>
+											<td rowspan="3"><img src="lambo.jpg" alt="Lamborghini picture"></td>
+											<td class="empty-cell"></td>
+										</tr>
+										<tr>
+											<td>5.0L V10</td>
+										</tr>
+										<tr>
+											<td>6-Speed Manual</td>
+										</tr>
+										<tr>
+											<td class="center">190 000&euro;</td>
+											<td>552hp (412kW)</td>
+										</tr>
+									</table>
+								</fieldset>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<fieldset>
+									<legend>Lamborghini Gallardo LP560-4</legend>
+									<table>
+										<tr>
+											<td rowspan="3"><img src="lambo.jpg" alt="Lamborghini picture"></td>
+											<td class="empty-cell"></td>
+										</tr>
+										<tr>
+											<td>5.0L V10</td>
+										</tr>
+										<tr>
+											<td>6-Speed Manual</td>
+										</tr>
+										<tr>
+											<td class="center">190 000&euro;</td>
+											<td>552hp (412kW)</td>
+										</tr>
+									</table>
+								</fieldset>
+							</td>
+							<td>
+								<fieldset>
+									<legend>Lamborghini Gallardo LP560-4</legend>
+									<table>
+										<tr>
+											<td rowspan="3"><img src="lambo.jpg" alt="Lamborghini picture"></td>
+											<td class="empty-cell"></td>
+										</tr>
+										<tr>
+											<td>5.0L V10</td>
+										</tr>
+										<tr>
+											<td>6-Speed Manual</td>
+										</tr>
+										<tr>
+											<td class="center">190 000&euro;</td>
+											<td>552hp (412kW)</td>
+										</tr>
+									</table>
+								</fieldset>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<fieldset>
+									<legend>Lamborghini Gallardo LP560-4</legend>
+									<table>
+										<tr>
+											<td rowspan="3"><img src="lambo.jpg" alt="Lamborghini picture"></td>
+											<td class="empty-cell"></td>
+										</tr>
+										<tr>
+											<td>5.0L V10</td>
+										</tr>
+										<tr>
+											<td>6-Speed Manual</td>
+										</tr>
+										<tr>
+											<td class="center">190 000&euro;</td>
+											<td>552hp (412kW)</td>
+										</tr>
+									</table>
+								</fieldset>
+							</td>
+							<td>
+								<fieldset>
+									<legend>Lamborghini Gallardo LP560-4</legend>
+									<table>
+										<tr>
+											<td rowspan="3"><img src="lambo.jpg" alt="Lamborghini picture"></td>
+											<td class="empty-cell"></td>
+										</tr>
+										<tr>
+											<td>5.0L V10</td>
+										</tr>
+										<tr>
+											<td>6-Speed Manual</td>
+										</tr>
+										<tr>
+											<td class="center">190 000&euro;</td>
+											<td>552hp (412kW)</td>
+										</tr>
+									</table>
+								</fieldset>
+							</td>
+						</tr>
+					</form>
+				</table>
+			</td>
+			<td class="center">
+				<label for="min-price">Min price: </label><span id="min-price-value">100000</span>&euro;<br />
+				<input type="range" min="0" max="200000" id="min-price" value="100000" step="100" onchange="changeValue(this)" /><br />
+				<label for="max-price">Max price: </label><span id="max-price-value">100000</span>&euro;<br />
+				<input type="range" min="0" max="200000" id="max-price" value="100000" step="100" onchange="changeValue(this)" /><br />
+				<label for="min-hp">Min power: </label><span id="min-hp-value">500</span>hp<br />
+				<input type="range" min="0" max="1000" id="min-hp" value="500" step="10" onchange="changeValue(this)" /><br />
+				<label for="max-hp">Max power: </label><span id="max-hp-value">500</span>hp<br />
+				<input type="range" min="0" max="1000" id="max-hp" value="500" step="10" onchange="changeValue(this)" /><br />
+			</td>
+		</tr>
+	</table>
+
+	<script type="text/javascript">
+	function changeValue(element)
+	{
+		document.getElementById(element.id + "-value").innerHTML=element.value;
+	}
+	</script>
+</body>
+</html>
