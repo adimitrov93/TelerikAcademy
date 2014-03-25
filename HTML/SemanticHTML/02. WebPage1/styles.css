@@ -1,0 +1,27 @@
+body {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+th, td {
+	border: 2px solid black;
+}
+
+#heading {
+	display: inline;
+	margin-left: 100px;
+}
+
+#logo {
+	width: 100px;
+	height: 99px;
+	vertical-align: middle;
+}
+
+#nav {
+	list-style-type: disc;
+}
+
+#score-table {
+	border-collapse: collapse;
+}

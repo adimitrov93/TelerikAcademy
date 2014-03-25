@@ -20,8 +20,8 @@ nav a {
 	color: darkblue;
 }
 
-.empty-cell {
-	height: 20px;
+.padding-top-cell {
+	padding-top: 20px;
 }
 
 #main-table {

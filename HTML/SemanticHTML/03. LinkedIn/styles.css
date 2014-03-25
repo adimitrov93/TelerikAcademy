@@ -1,0 +1,7 @@
+#nav-list, #descr-list, #sign-up-list, #search-list {
+	list-style-type: disc;
+}
+
+#sign-in-list {
+	list-style-type: circle;
+}
