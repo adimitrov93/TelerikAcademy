@@ -1,0 +1,86 @@
+body
+{
+	background-color: #595959;
+
+	font-family: Verdana, Arial;
+}
+
+#ticket-id
+{
+	color: #BABBBB;
+	font-size: 1.5em;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+#table
+{
+	display: table;
+}
+
+.table-row
+{
+	display: table-row;
+}
+
+.table-cell
+{
+	display: table-cell;
+	padding: 0 15px 20px 0;
+}
+
+#red
+{
+	display: inline-block;
+	color: #FF0014;
+	margin-top: 5px;
+}
+
+.titles
+{
+	font-style: italic;
+	color: #FFFFFF;
+}
+
+.yellow
+{
+	color: #e7e79e;
+}
+
+#orange
+{
+	color: #db6930;
+}
+
+.gray
+{
+	color: #BBB;
+}
+
+#inline-block
+{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+#green-dot
+{
+	background: transparent url(green-dot.png) no-repeat;
+	background-position: 0 0;
+
+	padding-left: 23px;
+}
+
+.bold
+{
+	font-weight: bold;
+	color: #e7e79e;
+}
+
+span.yellow a,
+span.yellow a:active,
+span.yellow a:visited
+{
+	text-decoration: none;
+	color: #e7e79e;
+}

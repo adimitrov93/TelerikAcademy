@@ -1,0 +1,90 @@
+body
+{
+	font-family: "Times New Roman";
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+thead tr
+{
+	background-color: #64CD05;
+}
+
+th
+{
+	color: #FFF;
+	font-weight: normal;
+	text-align: left;
+
+	border: 1px solid #C7C5AE;
+	border-bottom: 1px solid #247005;
+}
+
+th,
+td
+{
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#contact-name
+{
+	width: 150px;
+}
+
+.city-country
+{
+	width: 120px;
+}
+
+#is-promoted
+{
+	width: 100px;
+}
+
+td
+{
+	border-left: 1px solid #C7C5AE;
+	border-right: 1px solid #C7C5AE;
+}
+
+tr:nth-child(2n)
+{
+	background-color: #ECECD8;
+}
+
+.last-row
+{
+	border-bottom: 1px solid gray;
+}
+
+#germany
+{
+	background-image: url(germany.jpg);
+	background-repeat: no-repeat;
+	background-position: 6px 6px;
+
+	padding-left: 40px;
+}
+
+.mexico
+{
+	background-image: url(mexico.jpg);
+	background-repeat: no-repeat;
+	background-position: 6px 6px;
+
+	padding-left: 40px;
+}
+
+#uk
+{
+	background-image: url(uk.jpg);
+	background-repeat: no-repeat;
+	background-position: 6px 6px;
+
+	padding-left: 40px;
+}

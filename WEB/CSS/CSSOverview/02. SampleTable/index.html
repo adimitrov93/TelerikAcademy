@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Table</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<table>
+		<colgroup>
+			<col id="contact-name">
+			<col class="city-country">
+			<col class="city-country">
+			<col id="is-promoted">
+		</colgroup>
+		<thead>
+			<tr>
+				<th>
+					Contact name
+				</th>
+				<th>
+					City
+				</th>
+				<th>
+					Country
+				</th>
+				<th>
+					Is Promoted
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Maria Anders</td>
+				<td>Berlin</td>
+				<td id="germany">Germany</td>
+				<td><input type="checkbox" disabled /></td>
+			</tr>
+			<tr>
+				<td>Ana Trujillo</td>
+				<td>Mexico D.F.</td>
+				<td class="mexico">Mexico</td>
+				<td><input type="checkbox" disabled /></td>
+			</tr>
+			<tr>
+				<td>Antonio Moreno</td>
+				<td>Mexico D.F.</td>
+				<td class="mexico">Mexico</td>
+				<td><input type="checkbox" disabled checked /></td>
+			</tr>
+			<tr>
+				<td class="last-row">Thomas Hardy</td>
+				<td class="last-row">London</td>
+				<td class="last-row" id="uk">UK</td>
+				<td class="last-row"><input type="checkbox" disabled /></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
