@@ -1,0 +1,55 @@
+<!--Running perfect on Chrome, some problems on IE and Firefox-->
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="border">
+		<div id="container">
+			<div id="nav">
+				<span><span class="underline">V</span>iew</span>
+				<span><span class="underline">E</span>dit</span>
+				<span><span class="underline">H</span>elp</span>
+			</div>
+			<div id="main">
+				<input type="text" value="8854455" />
+				<div id="binary-digits">
+					<span>0000</span><span>0000</span><span>0000</span><span>0000</span><span>0000</span><span>0000</span><span>0000</span><span>0000</span>
+					<span class="left-index">63</span><span class="right-index">47</span><span>32</span>
+					<span>0000</span><span>0000</span><span>1000</span><span>0111</span><span>0001</span><span>1011</span><span>1011</span><span>0111</span>
+					<span class="left-index">31</span><span class="right-index">15</span><span id="left-margin">0</span>
+				</div>
+				<div id="choices">
+					<div id="system-choice">
+						<input type="radio" name="system" value="Hex" id="hex">
+						<label for="hex">Hex</label><br>
+						<input type="radio" name="system" value="Dec" id="dec" checked>
+						<label for="dec">Dec</label><br>
+						<input type="radio" name="system" value="Oct" id="oct">
+						<label for="oct">Oct</label><br>
+						<input type="radio" name="system" value="Bin" id="bin">
+						<label for="bin">Bin</label>
+					</div>
+					<div id="word-choice">
+						<input type="radio" name="word" value="Qword" id="qword" checked>
+						<label for="qword">Qword</label><br>
+						<input type="radio" name="word" value="Dword" id="dword">
+						<label for="dword">Dword</label><br>
+						<input type="radio" name="word" value="Word" id="word">
+						<label for="word">Word</label><br>
+						<input type="radio" name="word" value="Byte" id="byte">
+						<label for="byte">Byte</label>
+					</div>
+				</div>
+				<div id="button-container">
+					<button id="empty-button" disabled></button><button id="big-left-margin">Mod</button><button disabled>A</button><button class="memory">MC</button><button class="memory">MR</button><button class="memory">MS</button><button class="memory">M+</button><button class="last-ver memory">M-</button><button>(</button><button>)</button><button disabled>B</button><button>&larr;</button><button>CE</button><button>C</button><button>&plusmn;</button><button class="last-ver" disabled>&radic;</button><button>RoL</button><button>RoR</button><button disabled>C</button><button class="number">7</button><button class="number">8</button><button class="number">9</button><button>/</button><button class="last-ver" disabled>%</button><button>Or</button><button>Xor</button><button disabled>D</button><button class="number">4</button><button class="number">5</button><button class="number">6</button><button>*</button><button class="last-ver" disabled>1/<span class="italic">x</span></button><button>Lsh</button><button>Rsh</button><button disabled>E</button><button class="number">1</button><button class="number">2</button><button class="number">3</button><button>-</button><button id="double-ver" class="last-ver last hor">=</button><button class="last-hor">Not</button><button class="last-hor">And</button><button class="last-hor" disabled>F</button><button id="double-hor" class="last-hor number">0</button><button class="last-hor" disabled>.</button><button class="last-hor">+</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

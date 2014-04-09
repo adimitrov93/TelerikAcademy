@@ -1,0 +1,21 @@
+ul
+{
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+li > ul
+{
+	display: none;
+	color: #777;
+}
+
+li:hover > ul
+{
+	display: block;
+}
+
+span:hover
+{
+	text-decoration: underline;
+}
