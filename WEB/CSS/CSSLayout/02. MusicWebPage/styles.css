@@ -1,0 +1,89 @@
+body,
+html,
+section,
+article,
+h1,
+img,
+p,
+span,
+button
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: Arial;
+	font-size: 12px;
+}
+
+section
+{
+	width: 380px;
+	background-color: #eee;
+	border-radius: 5px;
+	padding: 15px 12px;
+}
+
+article
+{
+	border: 1px solid #999;
+	padding: 15px;
+	position: relative;
+	margin-bottom: 40px;
+	background-color: white;
+}
+
+article:first-of-type
+{
+	margin-top: 35px;
+}
+
+article:last-of-type
+{
+	margin-bottom: 0;
+}
+
+h1
+{
+	font-weight: normal;
+	font-size: 16px;
+}
+
+article img
+{
+	float: left;
+	width: 129px;
+	height: 83px;
+	border: 1px solid #999;
+}
+
+article img:after
+{
+	clear: both;
+}
+
+button
+{
+	position: relative;
+	left: 85px;
+	top: 17px;
+	margin-bottom: 20px;
+	color: white;
+	background: transparent url(images/button.png) no-repeat;
+	background-size: 100% 100%;
+	padding: 2px 16px;
+	border: 2px solid #680100;
+	border-top: 2px solid #EE8282;
+}
+
+p
+{
+	margin-left: 146px;
+}
+
+span.bold
+{
+	font-weight: bold;
+}

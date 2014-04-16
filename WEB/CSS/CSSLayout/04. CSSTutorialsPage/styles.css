@@ -1,0 +1,218 @@
+﻿html,
+body,
+main,
+nav,
+aside,
+header,
+section,
+article,
+ul,
+li,
+h1,
+button,
+input,
+form,
+a,
+div,
+hr,
+p,
+img
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Verdana;
+    font-size: 14px;
+    padding: 2px;
+}
+
+    body div#wrapper
+    {
+        border: 2px solid black;
+        background-color: #f1f1f1;
+        display: inline-block;
+        padding: 2px;
+    }
+
+nav,
+main,
+aside
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav
+{
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+    nav > ul > li
+    {
+        color: #890000;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    nav a
+    {
+        text-decoration: none;
+        color: black;
+        font-weight: normal;
+    }
+
+main,
+aside div
+{
+    border: 2px solid #818181;
+    background-color: #fff;
+}
+
+main
+{
+    width: 650px;
+    padding: 20px 5px;
+}
+
+    main > header h1
+    {
+        font-size: 1.6em;
+        margin-bottom: 15px;
+    }
+
+    main article
+    {
+        padding-bottom: 15px;
+    }
+
+        main article:last-of-type
+        {
+            padding: 0;
+        }
+
+        main article h1
+        {
+            background-color: #808080;
+            color: white;
+            padding-left: 5px;
+            margin-bottom: 20px;
+        }
+
+        main article p
+        {
+            margin-bottom: 20px;
+        }
+
+        main article img
+        {
+            margin-right: 20px;
+        }
+
+        main article a
+        {
+            margin-bottom: 10px;
+        }
+
+    main button
+    {
+        width: 125px;
+        height: 25px;
+        border: 2px solid black;
+    }
+
+    main hr
+    {
+        height: 1px;
+        margin: 10px 0;
+        background-color: #a3a3a3;
+    }
+
+    main button.previous
+    {
+        background: white url(images/left-arrow.png) no-repeat;
+        background-size: 10px;
+        background-position: 5px center;
+    }
+
+    main button.next
+    {
+        background: white url(images/right-arrow.png) no-repeat;
+        background-size: 10px;
+        background-position: right 5px center;
+    }
+
+#css-logo
+{
+    width: 145px;
+    height: 100px;
+    float: left;
+}
+
+.clearfix
+{
+    zoom: 1;
+}
+
+    .clearfix:after
+    {
+        display: block;
+        clear: both;
+        content: "";
+    }
+
+#ad
+{
+    width: 145px;
+    height: 45px;
+}
+
+aside
+{
+    width: 190px;
+    text-align: center;
+}
+
+    aside div
+    {
+        margin-bottom: 1px;
+        padding: 5px 0;
+    }
+
+        aside div h1
+        {
+            font-size: 1.1em;
+            color: white;
+            background-color: #808080;
+            margin-top: -5px;
+            margin-bottom: 5px;
+        }
+
+    aside input[type='text']
+    {
+        width: 60%;
+        margin-bottom: 5px;
+    }
+
+    aside a,
+    main a
+    {
+        color: #910C0A;
+        font-weight: normal;
+    }
+
+#home
+{
+    background: transparent url(images/home.png) no-repeat;
+    background-size: contain;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.bold
+{
+    font-weight: bold;
+}

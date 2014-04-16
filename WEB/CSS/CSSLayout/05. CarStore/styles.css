@@ -1,0 +1,122 @@
+﻿html,
+body,
+div,
+nav,
+a,
+form,
+fieldset,
+legend,
+img,
+p,
+label,
+input,
+figure,
+figcaption,
+hr,
+ul,
+li
+{
+    margin: 0;
+    padding: 0;
+}
+
+    div#wrapper
+    {
+        display: inline-block;
+        position: relative;
+        padding: 20px;
+    }
+
+        div#wrapper > div
+        {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+nav
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+    nav a
+    {
+        color: darkblue;
+    }
+
+    nav ul
+    {
+        list-style-type: none;
+    }
+
+        nav ul li
+        {
+            display: inline-block;
+        }
+
+img
+{
+    width: 100px;
+    height: 56px;
+}
+
+figure
+{
+    float: left;
+}
+
+figcaption
+{
+    text-align: center;
+}
+
+fieldset
+{
+    display: inline-block;
+    padding: 5px 10px;
+    width: 210px;
+    margin-right: 5px;
+    text-align: left;
+}
+
+legend
+{
+    text-align: center;
+}
+
+p.padding-top
+{
+    padding-top: 20px;
+}
+
+p
+{
+    padding-left: 105px;
+}
+
+#products
+{
+    max-width: 485px;
+    width: auto;
+    border: 1px solid black;
+    padding: 5px;
+    padding-right: 0;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#sliders
+{
+    margin-top: 13%;
+}
+
+hr
+{
+    height: 1px;
+    background-color: #888;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 98%;
+    position: relative;
+    left: 1%;
+}

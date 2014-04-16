@@ -1,0 +1,102 @@
+html,
+body,
+section,
+form,
+input,
+label,
+p,
+h1
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: 'Georgia';
+}
+
+body > section
+{
+	width: 770px;
+	height: 346px;
+	border: 1px solid #5D5145;
+	border-radius: 5px;
+	background-color: #3B3B3B;
+}
+
+section#login-form
+{
+	width: 756px;
+	height: 58px;
+	background: -webkit-radial-gradient(50% 110%, 120% 60%, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.00) 50%);
+	padding-top: 20px;
+	padding-left: 14px;
+	position: relative;
+}
+
+label
+{
+	color: white;
+	font-size: 1.5em;
+	background: transparent url(images/pc.png) no-repeat;
+	background-position: 1px 4px;
+	padding: 15px 0;
+	padding-left: 70px;
+	font-weight: bold;
+}
+
+input[type="submit"]
+{
+	background: transparent url(images/button.png) no-repeat;
+	border: 0;
+	width: 66px;
+	height: 34px;
+	position: absolute;
+	right: 9px;
+	top: 18px;
+}
+
+input[type=text],
+input[type=email]
+{
+	font-size: 1.05em;
+	position: relative;
+	bottom: 6px;
+	padding-top: 0;
+	padding-left: 10px;
+	padding-bottom: 3px;
+	margin-left: 10px;
+	width: 160px;
+}
+
+input[type=email]
+{
+	margin-left: 25px;
+}
+
+section#main-section 
+{
+	padding-left: 15px;
+	padding-right: 85px;
+	color: #9D9D9D;
+}
+
+section h1
+{
+	color: #FDD416;
+	font-size: 2em;
+	font-weight: normal;
+	padding: 20px 0;
+}
+
+span#white
+{
+	color: white;
+}
+
+section p
+{
+	font-family: Helvetica;
+	font-size: 17px;
+}

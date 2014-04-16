@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Car Store</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <ul>
+                <li><a href="">Aston Martin</a></li>
+                <li><a href="">Ferrari</a></li>
+                <li><a href="">Lamborghini</a></li>
+                <li><a href="">Mercedes-Benz</a></li>
+                <li><a href="">Subaru</a></li>
+            </ul>
+        </nav>
+        <hr />
+        <div id="products">
+            <form>
+                <fieldset>
+                    <legend>Lamborghini Gallardo LP560-4</legend>
+                    <figure>
+                        <img src="images\lambo.jpg" alt="Lamborghini picture">
+                        <figcaption>190 000&euro;</figcaption>
+                    </figure>
+                    <p class="padding-top">5.0L V10</p>
+                    <p>6-Speed Manual</p>
+                    <p>552hp (412kW)</p>
+                </fieldset>
+                <fieldset>
+                    <legend>Lamborghini Gallardo LP560-4</legend>
+                    <figure>
+                        <img src="images\lambo.jpg" alt="Lamborghini picture">
+                        <figcaption>190 000&euro;</figcaption>
+                    </figure>
+                    <p class="padding-top">5.0L V10</p>
+                    <p>6-Speed Manual</p>
+                    <p>552hp (412kW)</p>
+                </fieldset>
+                <fieldset>
+                    <legend>Lamborghini Gallardo LP560-4</legend>
+                    <figure>
+                        <img src="images\lambo.jpg" alt="Lamborghini picture">
+                        <figcaption>190 000&euro;</figcaption>
+                    </figure>
+                    <p class="padding-top">5.0L V10</p>
+                    <p>6-Speed Manual</p>
+                    <p>552hp (412kW)</p>
+                </fieldset>
+                <fieldset>
+                    <legend>Lamborghini Gallardo LP560-4</legend>
+                    <figure>
+                        <img src="images\lambo.jpg" alt="Lamborghini picture">
+                        <figcaption>190 000&euro;</figcaption>
+                    </figure>
+                    <p class="padding-top">5.0L V10</p>
+                    <p>6-Speed Manual</p>
+                    <p>552hp (412kW)</p>
+                </fieldset>
+                <fieldset>
+                    <legend>Lamborghini Gallardo LP560-4</legend>
+                    <figure>
+                        <img src="images\lambo.jpg" alt="Lamborghini picture">
+                        <figcaption>190 000&euro;</figcaption>
+                    </figure>
+                    <p class="padding-top">5.0L V10</p>
+                    <p>6-Speed Manual</p>
+                    <p>552hp (412kW)</p>
+                </fieldset>
+                <fieldset>
+                    <legend>Lamborghini Gallardo LP560-4</legend>
+                    <figure>
+                        <img src="images\lambo.jpg" alt="Lamborghini picture">
+                        <figcaption>190 000&euro;</figcaption>
+                    </figure>
+                    <p class="padding-top">5.0L V10</p>
+                    <p>6-Speed Manual</p>
+                    <p>552hp (412kW)</p>
+                </fieldset>
+            </form>
+        </div>
+        <div id="sliders">
+            <label for="min-price">Min price: </label><span id="min-price-value">100000</span>&euro;<br />
+            <input type="range" min="0" max="200000" id="min-price" value="100000" step="100" onchange="changeValue(this)" /><br />
+            <label for="max-price">Max price: </label><span id="max-price-value">100000</span>&euro;<br />
+            <input type="range" min="0" max="200000" id="max-price" value="100000" step="100" onchange="changeValue(this)" /><br />
+            <label for="min-hp">Min power: </label><span id="min-hp-value">500</span>hp<br />
+            <input type="range" min="0" max="1000" id="min-hp" value="500" step="10" onchange="changeValue(this)" /><br />
+            <label for="max-hp">Max power: </label><span id="max-hp-value">500</span>hp<br />
+            <input type="range" min="0" max="1000" id="max-hp" value="500" step="10" onchange="changeValue(this)" /><br />
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function changeValue(element) {
+            document.getElementById(element.id + "-value").innerHTML = element.value;
+        }
+    </script>
+</body>
+</html>
