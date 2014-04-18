@@ -1,0 +1,80 @@
+@items: 5;
+@width: 1000px;
+@margin: 10px;
+@aspect-ratio: 16 / 9;
+
+@thumbnail-width: (@width - (@margin * (@items - 1))) / @items;
+@thumbnail-height: @thumbnail-width / @aspect-ratio;
+@photo-width: @width;
+@photo-height: @photo-width / @aspect-ratio;
+
+html,
+body,
+ul,
+li,
+a,
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background: white url(../images/carbon-pattern.jpg) repeat;
+}
+
+#gallery {
+	position: relative;
+	margin: @margin auto 0;
+	width: @width;
+	height: @thumbnail-height + @margin + @photo-height;
+	list-style: none;
+
+	li {
+		float: left;
+	}
+}
+
+.gallery-item {
+	margin-bottom: @margin;
+
+	&:not(:first-of-type) {
+		margin-left: @margin;
+	}
+
+	&:target {
+		.thumbnail {
+			opacity: 1;
+			cursor: default;
+		}
+
+		.photo {
+			z-index: 1;
+			opacity: 1;
+		}
+	}
+}
+
+.thumbnail {
+	width: @thumbnail-width;
+	height: @thumbnail-height;
+	opacity: 0.5;
+
+	&:hover {
+		opacity: 0.75;
+	}
+}
+
+.photo {
+	position: absolute;
+	top: @thumbnail-height + @margin;
+	left: 0;
+	z-index: 0;
+	opacity: 0;
+	width: @photo-width;
+	height: @photo-height;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}

@@ -1,0 +1,58 @@
+html,
+body,
+ul,
+li,
+a,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background: #ffffff url(../images/carbon-pattern.jpg) repeat;
+}
+#gallery {
+  position: relative;
+  margin: 10px auto 0;
+  width: 1000px;
+  height: 680.5px;
+  list-style: none;
+}
+#gallery li {
+  float: left;
+}
+.gallery-item {
+  margin-bottom: 10px;
+}
+.gallery-item:not(:first-of-type) {
+  margin-left: 10px;
+}
+.gallery-item:target .thumbnail {
+  opacity: 1;
+  cursor: default;
+}
+.gallery-item:target .photo {
+  z-index: 1;
+  opacity: 1;
+}
+.thumbnail {
+  width: 192px;
+  height: 108px;
+  opacity: 0.5;
+}
+.thumbnail:hover {
+  opacity: 0.75;
+}
+.photo {
+  position: absolute;
+  top: 118px;
+  left: 0;
+  z-index: 0;
+  opacity: 0;
+  width: 1000px;
+  height: 562.5px;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
