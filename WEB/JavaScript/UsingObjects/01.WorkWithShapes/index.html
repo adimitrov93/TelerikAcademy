@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Work with shapes</title>
+	<link rel="stylesheet" href="../styles/js-console.css">
+</head>
+<body>
+    <h1>Work with shapes</h1>
+    <h2>Calculate the distance between two points</h2>
+    <label for="first-point">Enter first point:</label>
+    <input type="text" id="first-point">(In format: x,y)<br />
+    <label for="second-point">Enter second point:</label>
+    <input type="text" id="second-point">(In format: x,y)<br />
+    <button onclick="calculateDistanceBetweenPointsButtonClick()">Find the distance!</button>
+
+    <h2>Chech if three lines form a triangle</h2>
+    <label for="first-line-start">Enter first line start point:</label>
+    <input type="text" id="first-line-start">(In format: x,y)<br />
+    <label for="first-line-end">Enter first line end point:</label>
+    <input type="text" id="first-line-end">(In format: x,y)<br />
+    <hr />
+    <label for="second-line-start">Enter second line start point:</label>
+    <input type="text" id="second-line-start">(In format: x,y)<br />
+    <label for="second-line-end">Enter second line end point:</label>
+    <input type="text" id="second-line-end">(In format: x,y)<br />
+    <hr />
+    <label for="third-line-start">Enter third line start point:</label>
+    <input type="text" id="third-line-start">(In format: x,y)<br />
+    <label for="third-line-end">Enter third line end point:</label>
+    <input type="text" id="third-line-end">(In format: x,y)<br />
+    <hr />
+    <button onclick="chechIfTriangleButtonClick()">Find out!</button>
+
+    <div id="js-console"></div>
+    <script src="../scripts/js-console.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

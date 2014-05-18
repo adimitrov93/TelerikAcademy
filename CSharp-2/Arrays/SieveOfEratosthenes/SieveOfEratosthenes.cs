@@ -6,7 +6,7 @@ class SieveOfEratosthenes
 {
     static void Main()
     {
-        bool[] numbers = new bool[10000000];                    //An array for every number in the range 1...10 000 000
+        bool[] numbers = new bool[1000000000];                    //An array for every number in the range 1...10 000 000
 
         int condition = (int)Math.Sqrt(numbers.Length);         //This is an optimisation for faster runtime
 

@@ -1,3 +1,6 @@
+/*jslint evil: true */
+/*jshint unused:false*/
+
 b = navigator.appName;
 addScroll = false;
 
@@ -11,12 +14,12 @@ var off = 0,
     pY = 0;
 document.onmousemove = mouseMove;
 
-if (b == "Netscape") {
-    document.captureEvents(Event.MOUSEMOVE)
+if (b === "Netscape") {
+    document.captureEvents(Event.MOUSEMOVE);
 }
 
 function mouseMove(evn) {
-    if (b == "Netscape") {
+    if (b === "Netscape") {
         pX = evn.pageX - 5;
         pY = evn.pageY;
     } else {
@@ -24,19 +27,19 @@ function mouseMove(evn) {
         pY = event.y;
     }
 
-    if (b == "Netscape") {
-        if (document.layers['ToolTip'].visibility == 'show') {
+    if (b === "Netscape") {
+        if (document.layers.ToolTip.visibility === 'show') {
             PopTip();
         }
     } else {
-        if (document.all['ToolTip'].style.visibility == 'visible') {
+        if (document.all.ToolTip.style.visibility === 'visible') {
             PopTip();
         }
     }
 }
 
 function PopTip() {
-    if (b == "Netscape") {
+    if (b === "Netscape") {
         theLayer = eval('document.layers[\'ToolTip\']');
 
         if ((pX + 120) > window.innerWidth) {
@@ -72,23 +75,23 @@ function PopTip() {
 function HideTip() {
     args = HideTip.arguments;
 
-    if (b == "Netscape") {
-        document.layers['ToolTip'].visibility = 'hide';
+    if (b === "Netscape") {
+        document.layers.ToolTip.visibility = 'hide';
     } else {
-        document.all['ToolTip'].style.visibility = 'hidden';
+        document.all.ToolTip.style.visibility = 'hidden';
     }
 }
 
 function HideMenu1() {
-    if (b == "Netscape") {
-        document.layers['menu1'].visibility = 'hide';
+    if (b === "Netscape") {
+        document.layers.menu1.visibility = 'hide';
     } else {
-        document.all['menu1'].style.visibility = 'hidden';
+        document.all.menu1.style.visibility = 'hidden';
     }
 }
 
 function ShowMenu1() {
-    if (b == "Netscape") {
+    if (b === "Netscape") {
         theLayer = eval('document.layers[\'menu1\']');
         theLayer.visibility = 'show';
     } else {
@@ -98,15 +101,15 @@ function ShowMenu1() {
 }
 
 function HideMenu2() {
-    if (b == "Netscape") {
-        document.layers['menu2'].visibility = 'hide';
+    if (b === "Netscape") {
+        document.layers.menu2.visibility = 'hide';
     } else {
-        document.all['menu2'].style.visibility = 'hidden';
+        document.all.menu2.style.visibility = 'hidden';
     }
 }
 
 function ShowMenu2() {
-    if (b == "Netscape") {
+    if (b === "Netscape") {
         theLayer = eval('document.layers[\'menu2\']');
         theLayer.visibility = 'show';
     } else {
