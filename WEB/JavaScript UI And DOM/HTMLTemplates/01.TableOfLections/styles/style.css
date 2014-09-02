@@ -1,0 +1,24 @@
+﻿#table-of-lections {
+    border-collapse: collapse;
+}
+
+#table-of-lections th, #table-of-lections td {
+    border: 1px solid black;
+}
+
+#table-of-lections th {
+    background-color: #A6A6A6;
+    color: white;
+}
+
+#table-of-lections tr:nth-of-type(2n+1) {
+    background-color: #D9D9D9;
+}
+
+#table-of-lections td {
+    text-align: center;
+}
+
+#table-of-lections td:nth-of-type(2) {
+    text-align: left;
+}

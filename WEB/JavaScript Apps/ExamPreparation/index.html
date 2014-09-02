@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bulls and cows</title>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/handlebars/handlebars.js"></script>
+    <script src="bower_components/q/q.js"></script>
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha1.js"></script>
+    
+    <script src="scripts/http-requester.js"></script>
+    <script src="scripts/persister.js"></script>
+</head>
+<body>
+    <script>
+        var persister = persisters.get('http://localhost:40643/api/');
+        persister.game.open();
+    </script>
+</body>
+</html>

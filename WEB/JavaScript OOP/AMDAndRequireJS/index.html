@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>ComboBox</title>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <script src="scripts/libs/require.js" data-main="scripts/config"></script>
+</head>
+<body>
+<button id="selectBtn">SELECT YOUR CAR</button>
+<div id="combobox-root"></div>
+<script type="text/x-handlebars-template" id="combobox-template">
+    {{#cars}}
+    <div class="car-box" id="car-{{id}}">
+        <strong class="carName">{{carName}}</strong>
+        <p class="carDescription">{{carDescription}}</p>
+        <img src="{{imageUrl}}" width="100px" />
+    </div>
+    {{/cars}}
+</script>
+</body>
+</html>

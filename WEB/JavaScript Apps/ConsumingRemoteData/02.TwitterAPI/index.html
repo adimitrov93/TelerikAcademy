@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Twitter API</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/handlebars/handlebars.js"></script>
+    <script src="scripts/index.js"></script>
+</head>
+<body>
+    <script id="tweet-template" type="text/x-handlebars-template">
+        {{#each tweets}}
+            <div class="tweet">
+                <img src="{{user.profile_image_url}}" class="image" />
+                <strong class="name">{{user.name}}</strong>
+                <span class="screen-name">@{{user.screen_name}}</span><br />
+                <p class="text">{{text}}</p>
+            </div>
+        {{/each}}
+    </script>
+    <div id="wrapper">
+        <h1 id="logo">Twitter API</h1>
+        <label for="consumer-key-input">Consumer key: </label>
+        <input type="text" id="consumer-key-input" /><br />
+        <label for="consumer-secret-input">Consumer secret: </label>
+        <input type="text" id="consumer-secret-input" /><br />
+        <label for="access-token-input">Access token: </label>
+        <input type="text" id="access-token-input" /><br />
+        <label for="access-token-secret-input">Access token secret: </label>
+        <input type="text" id="access-token-secret-input" /><br />
+        <label for="screen-name-input">Screen name: </label>
+        <input type="text" id="screen-name-input" /><br />
+        <label for="tweets-count-input">Number of tweets: </label>
+        <input type="number" id="tweets-count-input" /><br />
+        <button id="get-tweets-btn">Get tweets</button>
+        <div id="tweets-container">
+
+        </div>
+    </div>
+</body>
+</html>

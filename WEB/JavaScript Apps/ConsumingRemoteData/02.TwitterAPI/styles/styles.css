@@ -1,0 +1,47 @@
+html,
+body,
+div,
+h1,
+img,
+strong,
+span,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#logo {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.tweet {
+    margin: 10px 0;
+}
+
+.tweet:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.image {
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-right: 10px;
+}
+
+.screen-name {
+    font-size: 0.9em;
+}
+
+.text {
+    margin-top: 5px;
+    overflow-wrap: break-word;
+}

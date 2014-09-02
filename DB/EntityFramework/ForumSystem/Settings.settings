@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="_11.ForumSystem.Data" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DBConnectionStr" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=.;Database=StudentSystem;Integrated security=True;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,1 @@
+Hello. First task is all mine implementation. Second and third task are with reused code from outer sources.

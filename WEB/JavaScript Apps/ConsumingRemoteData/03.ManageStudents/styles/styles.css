@@ -1,0 +1,100 @@
+html,
+body,
+div,
+h1,
+span,
+label,
+input,
+button,
+table,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 450px;
+    margin: 0 auto;
+}
+
+#logo {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.tab-label {
+    display: inline-block;
+    padding: 10px;
+    background-color: #e5e5e5;
+    border: 1px solid black;
+    border-right-color: rgba(0, 0, 0, 0.0);
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tab-label:first-of-type {
+    border-top-left-radius: 20px;
+}
+
+.tab-label:last-of-type {
+    border-right: 1px solid black;
+    border-top-right-radius: 20px;
+}
+
+.tab-label:hover {
+    background-color: #d0d0d0;
+}
+
+.tab-label.selected {
+    background-color: #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.container {
+    border: 1px solid black;
+    width: 400px;
+    border-top: none;
+    padding: 21px;
+    margin-bottom: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+input {
+    margin: 10px 0;
+}
+
+.error-field {
+    color: #ff0000;
+    margin-left: 10px;
+}
+
+.btn {
+    border: 1px solid #93999D;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.btn:hover {
+    background-color: #E5E5E5;
+}
+
+#students-container {
+    border-collapse: collapse;
+    width: 443px;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+}

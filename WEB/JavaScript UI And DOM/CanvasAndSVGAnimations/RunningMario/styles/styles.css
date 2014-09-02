@@ -1,0 +1,23 @@
+﻿html,
+body,
+div,
+svg {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 800px;
+    height: 320px;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+#background {
+    width: 800px;
+    height: 320px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

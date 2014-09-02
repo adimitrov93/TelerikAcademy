@@ -1,0 +1,46 @@
+﻿html,
+body,
+div,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: url(../images/carbon-pattern.jpg) repeat;
+    padding-top: 50px;
+}
+
+#slider-container {
+    position: relative;
+}
+
+.slide {
+    width: 50%;
+    margin: 0 auto;
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+.buttons {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+}
+
+#previous {
+    background: url(../images/left-arrow.png) no-repeat;
+    left: 10%;
+}
+
+#next {
+    background: url(../images/right-arrow.png) no-repeat;
+    right: 10%;
+}

@@ -1,0 +1,1 @@
+Move SqlStringConcatenation.dll to C:\ directory or change the path in the SQL scripts.

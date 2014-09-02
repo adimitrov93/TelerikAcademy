@@ -1,0 +1,27 @@
+﻿html,
+body,
+label,
+input,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    padding: 15px;
+    position: relative;
+}
+
+#high-scores-container {
+    border: 3px dotted gray;
+    padding: 20px;
+    position: absolute;
+    left: 400px;
+    top: 0;
+}
+
+#high-scores-container span:first-of-type {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
